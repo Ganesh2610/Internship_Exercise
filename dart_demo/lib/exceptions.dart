@@ -19,6 +19,7 @@ void main() {
     print("Not valid for voting");
   }
 }
+
 void isValid(int age) {
   if (age < 18) {
     throw FormatException();
